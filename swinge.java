@@ -7,6 +7,7 @@ public class swinge
  {
   JFrame jf = new JFrame("Swing");
   Container c = jf.getContentPane();
+  c.setBackground(Color.cyan);
   
   JLabel l1 = new JLabel("Username");
   JTextField t1 = new JTextField(10);
